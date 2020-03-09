@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HOME on Edna West</title>
+    <link>/</link>
+    <description>Recent content in HOME on Edna West</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Edna West</copyright>
+    <lastBuildDate>Mon, 09 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Intro to STAT 385</title>
+      <link>/post/intro-to-stat-385/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/intro-to-stat-385/</guid>
+      <description>In this class, I am learning how to use R to program and create functions. During the first week of the course, we learned basic R syntax in order to prepare us to use this language for its most common function: data modeling. Week 2 consisted of learning R data types, structures, and frames. This ended up leading us to our first homework assignment, where we had emulate a French roulette, write an R function that calculates the number of mortgage payment terms given 3 inputs, and display data from Iris and Coronavirus files.</description>
+    </item>
+    
+  </channel>
+</rss>
