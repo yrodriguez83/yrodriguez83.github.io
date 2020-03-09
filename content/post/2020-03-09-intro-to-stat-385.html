@@ -1,0 +1,35 @@
+---
+title: Intro to STAT 385
+author: Yamileth Rodriguez
+date: '2020-03-09'
+slug: intro-to-stat-385
+categories:
+  - R
+tags: []
+description: ~
+publishDate: '2020-03-09T01:18:58-05:00'
+---
+
+
+
+<p>In this class, I am learning how to use R to program and create functions. During the first week of the course, we learned basic R syntax in order to prepare us to use this language for its most common function: data modeling. Week 2 consisted of learning R data types, structures, and frames. This ended up leading us to our first homework assignment, where we had emulate a French roulette, write an R function that calculates the number of mortgage payment terms given 3 inputs, and display data from Iris and Coronavirus files.</p>
+<p>Week 3 is when it started getting more difficult as we learned if-else statements that required us to use logic to ensure the correct function was being made. I definitely spent more time on this week’s hw because of the time spent figuring out how to set up the nested if-else loops into my function. In addition to if-else statements, we learned how to display histograms and scatterplots in R.</p>
+<p>For example, here is a scatter plot of Iris Sepal Length vs. Sepal Width using the Iris flower dataset:</p>
+<pre class="r"><code>plot(formula = Sepal.Width ~ Sepal.Length, data = iris,
+     main = &quot;Iris Sepal Length vs. Sepal Width&quot;,
+     xlab = &quot;Sepal Length&quot;, ylab = &quot;Sepal Width&quot;, 
+     pch = 16, col = &quot;violet&quot;)
+grid()</code></pre>
+<p><img src="/post/2020-03-09-intro-to-stat-385_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p>Week 4 consisted of learning about while and for loops, as well as a brand new concept: vectorizing functions. We learned that this decreased the amount of time it took for a function to run, which optimizes time spent running many functions at once.</p>
+<p>For example, here is a vectorized function that outputs names equal to or longer than 8 letters:</p>
+<pre class="r"><code>long_names_vec &lt;- function(names) {
+  return(names[nchar(names) &gt;= 8])
+}
+
+long_names_vec(names = c(&quot;alexander&quot;, &quot;david&quot;, &quot;sebastian&quot;,
+                         &quot;johnathan&quot;, &quot;ha&quot;,
+              &quot;lincoln&quot;, &quot;maximo&quot;, &quot;mason&quot;,
+              &quot;luca&quot;, &quot;anthony&quot;, &quot;kevin&quot;))
+## [1] &quot;alexander&quot; &quot;sebastian&quot; &quot;johnathan&quot;</code></pre>
+<p>Week 5 and up until now is consisting of learning how to use GitHub, RMarkdown, R blogdown, and R studio to create our midterm project which is to create a personal website. Ta-da!</p>
